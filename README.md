@@ -1,3 +1,15 @@
+#### To configure S3 bucket (needed for image and video uploading)
+
+- Get access keys from AWS and put them into the heroku config vars:
+
+    `S3_ACCESS_KEY`   <br />
+    `S3_SECRET_KEY`   <br />
+    `S3_BUCKET`          (bucket name)
+    
+- Check your `/config/initializers/shrine.rb` file and make sure that there is proper `region` of your bucket set <br />
+  (http://docs.aws.amazon.com/general/latest/gr/rande.html#s3_region)
+
+
 #### To configure connections with Twitter, Instagram, Facebook and LinkedIn
 
 - Register the app on your developer accounts on each of these platforms and get the following 8 keys:
