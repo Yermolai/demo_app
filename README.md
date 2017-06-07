@@ -11,5 +11,5 @@
 
 - Make sure that you have the needed urls set properly for the app on all four dev accounts. The main urls are:
 
-    `Website URL` - for example, `https://yourfeed-site-staging.herokuapp.com` <br />
-    `Callback URL` or `redirect URIs` - should have the form of `WEBSITE_URL/auth/PROVIDER_NAME/callback`, for example, `https://yourfeed-site-staging.herokuapp.com/auth/instagram/callback`
+    `Website URL` - for example, https://yourfeed-site-staging.herokuapp.com <br />
+    `Callback URL` or `redirect URIs` - should have the form of WEBSITE_URL/auth/PROVIDER_NAME/callback, for example, https://yourfeed-site-staging.herokuapp.com/auth/instagram/callback
