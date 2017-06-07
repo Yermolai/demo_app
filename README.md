@@ -20,11 +20,6 @@
    |Twitter  |`Consumer Key (API Key)`, `Consumer Secret (API Secret)`|
    |Facebook |`App ID`, `App Secret` |
    |LinkedIn |`Client ID`, `Client Secret`|
-
-   Instagram:`Client ID`, `Client Secret`<br />
-   Twitter:  `Consumer Key (API Key)`, `Consumer Secret (API Secret)`<br />
-   Facebook: `App ID`, `App Secret` <br />
-   LinkedIn: `Client ID`, `Client Secret`
    
 - Put the keys into the code in the `.env` file and into the Heroku config vars. The names of the keys on Heroku should be the same as in the code: `FACEBOOK_KEY` and `FACEBOOK_SECRET`, `TWITTER_KEY` and `TWITTER_SECRET` and so on.
 
